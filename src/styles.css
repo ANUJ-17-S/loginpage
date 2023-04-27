@@ -1,0 +1,70 @@
+body {
+  background-image: url(../Anime.jpg);
+}
+.App {
+  font-family: sans-serif;
+}
+header {
+  width: 98%;
+
+  align-items: right;
+  background: white;
+  padding: 15px;
+}
+header button {
+  left: 10px;
+  color: rgba(143, 89, 28, 0.993);
+  margin-left: 10px;
+  background: black;
+  cursor: pointer;
+  border-radius: 2px 2px 2px;
+}
+header a {
+  color: black;
+  font-weight: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+label {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background: black;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-width: 5px;
+  border-block-color: black;
+  font-size: 12px;
+  border-radius: 5px;
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+  padding: 5px 15px;
+  background-color: black;
+  color: rgba(143, 89, 28, 0.993);
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: white;
+}
+#login {
+  border: ;
+}
